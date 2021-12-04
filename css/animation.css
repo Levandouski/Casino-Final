@@ -1,0 +1,124 @@
+@keyframes money {
+    0% {
+        transform: trtranslateY(0px);
+    }
+    50%{
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes gift {
+    0% {
+        transform: trtranslateY(0px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+@keyframes lightred {
+    0% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes light {
+    0% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Стили анимации блика для кнопок */
+@keyframes sheens {
+    0%,79% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: rotateZ(60deg) translate(-5em,7.5em);
+        transform: rotateZ(60deg) translate(-5em,7.5em)
+    }
+
+    80% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: rotateZ(60deg) translate(-5em,7.5em);
+        transform: rotateZ(60deg) translate(-5em,7.5em)
+    }
+
+    95% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: rotateZ(60deg) translate(1em,-11em);
+        transform: rotateZ(60deg) translate(1em,-11em)
+    }
+
+    to {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: rotateZ(60deg) translate(1em,-9em);
+        transform: rotateZ(60deg) translate(1em,-9em)
+    }
+}
+/* Стили кроссбраузерной анимации блика для кнопок */
+@-webkit-keyframes sheens {
+    0%,79% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: rotateZ(60deg) translate(-5em,7.5em);
+        transform: rotateZ(60deg) translate(-5em,7.5em)
+    }
+
+    80% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: rotateZ(60deg) translate(-5em,7.5em);
+        transform: rotateZ(60deg) translate(-5em,7.5em)
+    }
+
+    95% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: rotateZ(60deg) translate(1em,-11em);
+        transform: rotateZ(60deg) translate(1em,-11em)
+    }
+
+    to {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: rotateZ(60deg) translate(1em,-9em);
+        transform: rotateZ(60deg) translate(1em,-9em)
+    }
+}

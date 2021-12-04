@@ -1,0 +1,24 @@
+.container {
+  width: 60.65%;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+
+@media (max-width: 1917px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1550px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 479px) {
+  .container {
+    width: 88%;
+  }
+}
